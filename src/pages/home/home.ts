@@ -28,7 +28,7 @@ export class HomePage {
 
   }
 
-  ionViewwillEnter(){
+  ionViewWillEnter(){
     this.date = new Date();
     this.monthNames = [
       "January","Febuary","March","April","May","June",
